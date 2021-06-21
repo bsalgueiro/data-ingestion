@@ -4,11 +4,12 @@
 ### .Net Core 3.1 Console Application
 
 - On the appsettings.json, it is necessary to define a valid path on the host machine ("AppPath") in order to run the program correctly.
-- There is also possible to define the Elastic Search Host in "ElasticSearch":"Url" (default is http://localhost:9200/).
 
 - ElasticSearch docker image must be running in order to connect with the ElasticSearch database:
 - docker pull docker.elastic.co/elasticsearch/elasticsearch:7.13.2
-- 
+
+- There is also possible to define the Elastic Search Host in "ElasticSearch":"Url" (default is http://localhost:9200/).
+
 --
 
 ### Task desciption:
