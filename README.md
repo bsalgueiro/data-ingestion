@@ -1,8 +1,10 @@
-# data-ingestion
+# DataIngestion.TestAssignment
 
 .Net Core 3.1 Console Application
 
-# DataIngestion.TestAssignment
+On the appsettings.json, it is necessary to define a valid path on the host machine ("AppPath") in order to run the program correctly.
+There is also possible to define the Elastic Search Host in "ElasticSearch":"Url" (default is http://localhost:9200/).
+--
 
 ### Task desciption:
 - The task is to store music data in Searchable database - ElasticSearch - 
